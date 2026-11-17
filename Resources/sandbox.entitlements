@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Finder only loads sandboxed extensions. -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<!-- Read-only view of the disk, so a folder can be handed to iTerm2. Nothing is ever written. -->
+	<key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/</string>
+	</array>
+</dict>
+</plist>
